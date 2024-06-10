@@ -1,0 +1,9 @@
+const ENVIRONMENT_CONFIG = {
+	HOST_NAME: process.env.HOST_NAME,
+	APP_PORT: process.env.APP_PORT,
+	CLUSTER_APP_PORT: process.env.CLUSTER_APP_PORT
+
+}
+
+Object.freeze(ENVIRONMENT_CONFIG);
+export default ENVIRONMENT_CONFIG;

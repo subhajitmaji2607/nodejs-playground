@@ -1,0 +1,13 @@
+{
+  "name": "node-cluster-module",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "app": "node --env-file=.env app.js",
+    "app:cluster": "node --env-file=.env app.cluster.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
